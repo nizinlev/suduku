@@ -1,0 +1,183 @@
+body {
+    /* background-image: url(מגרש.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 900px; */
+}
+
+#main {
+    display: flex;
+    justify-content: center
+}
+
+.alert {
+    color: red;
+}
+
+#h2 {
+    display: inline;
+}
+
+.h3 {
+    color: blueviolet;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+#h4 {
+    color: brown;
+    font-weight: bold;
+    display: inline;
+}
+
+.inputB {
+    border: solid rgb(24, 211, 56) 2px;
+    border-radius: 3%;
+    width: 200px;
+    height: 30px;
+}
+
+.bottun {
+    background-color: rgb(91, 91, 238);
+    color: white;
+    border: 0ch;
+    border-radius: 5px;
+    width: 40%;
+    height: 10%;
+    margin-top: 20px;
+}
+
+.bottunLevel {
+    background-color: rgb(91, 91, 238);
+    color: white;
+    border: 0ch;
+    border-radius: 5px;
+    width: 60px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 21px;
+}
+
+.bottunBord {
+    background-color: rgb(91, 91, 238);
+    color: white;
+    border: 0ch;
+    border-radius: 5px;
+    width: 60px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+
+
+#hidden {
+    display: none;
+}
+
+#visible {
+    display: inline;
+
+}
+
+.mainDiv {
+    margin-top: 10%;
+    width: 350px;
+    height: 350px;
+
+    text-align: center;
+    border: solid;
+    border-color: greenyellow;
+    border-width: 3px;
+}
+
+.inputbord {
+    border: solid rgb(24, 211, 56) 0.5px;
+    border-radius: 3%;
+    width: 10px;
+    height: 15px;
+}
+
+table,
+tr,
+td {
+    border: black solid 1px;
+    border-collapse: collapse;
+
+}
+
+input {
+    width: 20px;
+    height: 20px;
+    border: hidden;
+    text-align: center;
+    font-size: large;
+
+}
+
+#table {
+    margin: auto;
+}
+
+#tr3,
+#tr6,
+#tr9 {
+    border-bottom-width: medium;
+}
+
+#tr1 {
+    border-top-width: medium;
+}
+
+
+
+#td3,
+#td12,
+#td21,
+#td30,
+#td39,
+#td48,
+#td57,
+#td66,
+#td75 {
+    border-right-width: medium;
+}
+
+
+#td6,
+#td15,
+#td24,
+#td33,
+#td42,
+#td51,
+#td60,
+#td69,
+#td78 {
+    border-right-width: medium;
+}
+
+#td9,
+#td18,
+#td27,
+#td36,
+#td45,
+#td54,
+#td63,
+#td72,
+#td81 {
+    border-right-width: medium;
+}
+
+#td1,
+#td10,
+#td19,
+#td28,
+#td37,
+#td46,
+#td55,
+#td64,
+#td73 {
+    border-left-width: medium;
+}
